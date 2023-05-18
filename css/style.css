@@ -332,5 +332,46 @@ li{
     background-color: #FFD830;
 }
 
+.trialbanner{
+    background-color: #B4D0E7;
+    padding: 100px;
+}
 
+.freetrial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0px auto;
+}
+
+.freetrial h2{
+    width: 50%;
+    font-size: 2em;
+}
+.freetrial button{
+    font-size: 1.25em;
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+
+}
+
+
+
+section:last-child{
+    padding: 100px;
+}
+section:last-child h2{
+    text-align: left;
+}
+section:last-child span{
+    font-weight: bold;
+    display: inline-block;
+    margin: 25px 0px;
+
+}
+section:last-child i{
+    margin-left: 125px;
+}
 
