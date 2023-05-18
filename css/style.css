@@ -63,6 +63,10 @@ main section:first-of-type{
     width: 30%;
 }
 
+.jumbocol1 button{
+    margin-top: 25px;
+
+}
 button{
     padding: 10px;
     background-color: #0061FF;
@@ -95,20 +99,13 @@ button{
     margin: 0 auto;
 
 }
-
 .radiodiv{
     margin-top: 25px;
-    margin-bottom: 50px;
 }
-
-
 .radiodiv :nth-child(2){
     margin-left: 50px;
 
 }
-
-
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +113,7 @@ button{
 .col3{
     min-height: 500px;
     border: 1px solid grey;
-    margin: 0 10px;
+    margin: 25px 10px;
     width: calc(100% / 3 - 20px);
 
 }
@@ -172,10 +169,66 @@ button{
     width: 50px;
 
 }
-
-
-/* * DEBUG */
-
-.debug header .flexcontainer{
+.pros{
+    margin: 10px;
 
 }
+.pros *{
+    padding: 5px;
+    
+}
+li{
+    list-style: none;
+}
+.team{
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.enterprise{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saleoffice{
+    padding: 10px 20px;
+}
+
+.saleoffice :first-child{
+    font-weight: bold;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    display: block;
+}
+.saleoffice p{
+    width: 80%;
+}
+
+
+
+.partner{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.partner img{
+    width: 60%;
+}
+.partner div{
+    margin: 50px;
+}
+
+.partner div *{
+    margin-bottom: 20px;
+}
+
+.partner button{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
