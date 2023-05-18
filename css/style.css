@@ -231,4 +231,106 @@ li{
 }
 
 
+.flexbusiness{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: calc((100% / 3) - 20px);
+    height: 500px;
+    margin: 0 10px;
+}
+
+.card img{
+    height: 40%;
+}
+
+.small-container h2{
+    font-size: 2em;
+    margin: 100px 0px 50px 0px;
+    text-align: center;
+}
+
+.discover{
+    display: block;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+
+
+.flexsquare{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexsquare > :nth-child(2){
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+.square{
+    width: calc(100% / 3);
+
+}
+
+.square img{
+    width: 50%;
+
+    filter: invert(100%) sepia(49%) saturate(0%) hue-rotate(184deg) brightness(115%) contrast(100%);
+}
+
+.square > img{
+    filter: none;
+    margin-bottom: 25px;
+}
+.square p{
+    margin: 25px 0px;
+}
+.square hr{
+    width: 20%;
+}
+.flexed{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subsquare{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: calc(100vw / 6);
+}
+
+.flexed > :first-child{
+    background-color: #A2D39B;
+}
+
+.flexed > :nth-child(2){
+    background-color: #61082B;
+}
+.flexed > :nth-child(3){
+    background-color: #0093CE;
+}
+
+.flexed  > :last-child{
+    background-color: #FF1C1C;
+}
+
+.second > :first-child{
+    background-color: #D5001F;
+}
+
+.second > :nth-child(2){
+    background-color: #B4D0E7;
+}
+.second > :nth-child(3){
+    background-color: #0D2481;
+}
+
+.second > :last-child{
+    background-color: #FFD830;
+}
+
+
 
