@@ -98,12 +98,12 @@ button{
 /* * Seconda sezione piani */
 
 .small-container{
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 
 }
 .radiodiv{
-    margin-top: 25px;
+    margin: 25px 0px;
 }
 .radiodiv :nth-child(2){
     margin-left: 50px;
@@ -112,11 +112,11 @@ button{
 .row{
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
 .col3{
     min-height: 500px;
     border: 1px solid grey;
-    margin: 25px 10px;
     width: calc(100% / 3 - 20px);
 
 }
@@ -133,6 +133,7 @@ button{
 }
 .plan-name h3{
     font-size: 1.5em;
+   
 
 }
 .plan-name *{
@@ -243,6 +244,10 @@ li{
     width: calc((100% / 3) - 20px);
     height: 500px;
     margin: 0 10px;
+}
+
+.card h3{
+    margin-bottom: 20px;
 }
 
 .card img{
